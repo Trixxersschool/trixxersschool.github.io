@@ -28,11 +28,11 @@
         <form name="order tricks" action="https://formspree.io/f/xgvkapnw" method="POST">
             <label for="trick">Choose a trick:</label><br>
             <select id="trick" name="trick">
-                <option value="card">Card Trick - 5€</option>
-                <option value="coin">Coin Trick - 5€</option>
-                <option value="telepathy">Telepathy Trick - 7€</option>
-                <option value="flashpaper">Tricks with Flashpaper - 7€</option>
-                <option value="smoke">Producing smoke trick - 3€</option>
+                <option value="card - 5€">Card Trick - 5€</option>
+                <option value="coin - 5€">Coin Trick - 5€</option>
+                <option value="telepathy - 7€">Telepathy Trick - 7€</option>
+                <option value="flashpaper - 7€">Tricks with Flashpaper - 7€</option>
+                <option value="smoke - 3€">Producing smoke trick - 3€</option>
             </select><br><br>
 
             <label for="payment">Payment Option:</label><br>
