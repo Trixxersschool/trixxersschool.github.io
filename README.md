@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="english">
 <head>
     <link rel="stylesheet" href="Trixxersstyle.css">
@@ -26,20 +27,26 @@
         <h2>Order Tricks</h2>
         <form name="order tricks" action="https://formspree.io/f/xgvkapnw" method="POST">
             <label for="trick">Choose a trick:</label><br>
-            <select id="trick" name="trick">
-                <option value="card - 5€">Card Trick - 5€</option>
-                <option value="coin - 5€">Coin Trick - 5€</option>
-                <option value="telepathy - 7€">Telepathy Trick - 7€</option>
-                <option value="flashpaper - 7€">Tricks with Flashpaper - 7€</option>
-                <option value="smoke - 3€">Producing smoke trick - 3€</option>
-            </select><br>
-            <label for="Kontakt">Contact:</label><br>
-            <input type="text" id="Kontakt" name="Kontakt"><br>
+            <input type="radio" id="card" name="trick" value="Card Trick - 5€">
+            <label for="card">Card Trick - 5€</label><br>
+            <input type="radio" id="coin" name="trick" value="Coin Trick - 5€">
+            <label for="coin">Coin Trick - 5€</label><br>
+            <input type="radio" id="telepathy" name="trick" value="Telepathy Trick - 7€">
+            <label for="telepathy">Telepathy Trick - 7€</label><br>
+            <input type="radio" id="flashpaper" name="trick" value="Tricks with Flashpaper - 7€">
+            <label for="flashpaper">Tricks with Flashpaper - 7€</label><br>
+            <input type="radio" id="smoke" name="trick" value="Producing smoke trick - 3€">
+            <label for="smoke">Producing smoke trick - 3€</label><br><br>
+    
             <label for="payment">Payment Option:</label><br>
-            <select id="payment" name="payment">
-                <option value="bank">Send money via bank transfer</option>
-                <option value="post">Send money via postal services</option>
-            </select><br>
+            <input type="radio" id="bank" name="payment" value="Bank Transfer">
+            <label for="bank">Send money via bank transfer</label><br>
+            <input type="radio" id="post" name="payment" value="Postal Services">
+            <label for="post">Send money via postal services</label><br><br>
+    
+            <label for="Kontakt">Contact:</label><br>
+            <input type="text" id="Kontakt" name="Kontakt"><br><br>
+    
             <input type="submit" value="Order">
         </form>
     </div>
@@ -57,3 +64,4 @@
     </div>
 </body>
 </html>
+
