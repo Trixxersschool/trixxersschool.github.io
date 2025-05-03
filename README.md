@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="english">
 <head>
     <link rel="stylesheet" href="Trixxersstyle.css">
