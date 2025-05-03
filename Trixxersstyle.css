@@ -78,3 +78,122 @@ input[type="submit"]:hover {
     font-size: 14px;
     color: #666;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f4f4f9, #e2e2e2);
+    color: #333;
+}
+
+a {
+    color: #5cb85c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #4cae4c;
+}
+
+input[type="submit"]:hover {
+    background-color: #3d8b3d;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.div1, .div2, .div3, .div4, .div5 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Abstand zwischen den Formularfeldern */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    line-height: 1.8;
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+nav {
+    background: #5cb85c;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d4f5d4;
+}
+
+@media (max-width: 768px) {
+    .div1, .div2, .div3, .div4, .div5 {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
