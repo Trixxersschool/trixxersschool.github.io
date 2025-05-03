@@ -40,8 +40,8 @@
                 <option value="post">Send money via postal services</option>
             </select><br><br>
 
-            <label for="Kontakt">Contact (Email):</label><br>
-            <input type="email" id="Kontakt" name="Kontakt" required><br><br>
+            <label for="Email">Contact (Email):</label><br>
+            <input type="email" id="email" name="Email" required><br><br>
 
             <input type="submit" value="Order">
         </form>
