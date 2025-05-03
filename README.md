@@ -1,4 +1,3 @@
-
 <html lang="english">
 <head>
     <link rel="stylesheet" href="Trixxersstyle.css">
@@ -31,7 +30,7 @@
                 <option value="card - 5€">Card Trick - 5€</option>
                 <option value="coin - 5€">Coin Trick - 5€</option>
                 <option value="telepathy - 7€">Telepathy Trick - 7€</option>
-                <option value="flashpaper - 7€">Tricks with Flashpaper - 7€</option>
+                <option value="flashpaper 7€">Tricks with Flashpaper - 7€</option>
                 <option value="smoke - 3€">Producing smoke trick - 3€</option>
             </select><br><br>
 
@@ -41,8 +40,8 @@
                 <option value="post">Send money via postal services</option>
             </select><br><br>
 
-            <label for="Kontakt">Contact:</label><br>
-            <input type="text" id="Kontakt" name="Kontakt"><br><br>
+            <label for="Kontakt">Contact (Email):</label><br>
+            <input type="email" id="Kontakt" name="Kontakt" required><br><br>
 
             <input type="submit" value="Order">
         </form>
